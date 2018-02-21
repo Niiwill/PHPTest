@@ -1,0 +1,19 @@
+
+Ukoliko uzmemo da su dva robota odvojena na primer jedno polje :
+
+- Pozvacemo instrukcije R R da dva puta roboti odu desno,
+sto znaci da ce levi stati na mrlju desnog robota i tada cemo pozvati S funkciju koja ce zadrzati robota na mrlji na tom mestu i preskociti sledecu instrukciju koja ce biti L sto znaci da ce samo desni robot krenuti levo i tako cemo jos jednom pozvati S i L jer ce S funkcija zadrzati robota na mrlji a drugi ce se vratiti levo i sudarice se.
+
+
+Resenje: 
+
+Loop
+
+R
+R
+S
+L
+S
+L
+
+G loop
